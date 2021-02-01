@@ -6,7 +6,7 @@ public class Calculadora {
 	
 	
 	
-	public Calculadora(double i) {
+	public Calculadora(double i) {//constructor de la clase calculadora
 		this.op = op;
 		this.num1 = num1;
 		this.num2 = num2;
@@ -37,7 +37,7 @@ public class Calculadora {
 		this.num2 = num2;
 	}
 	
-	public double operacion (String operacion) {
+	public double operacion (String operacion) {//Funcion para operar.
 		
 		switch(operacion) {
 		
